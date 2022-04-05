@@ -6,12 +6,11 @@
 //.
 //.
 //25->z
-// if you want to make track of duplicate word than use counter for that also
-using namespace std;
 /* this trie is made in such a way
 -> it will store duplicate word, and gives true on searching of that word till
 all duplicate is deleted
  */
+using namespace std;
 struct node {
 	bool flag = false;
 	int end_with = 0;
